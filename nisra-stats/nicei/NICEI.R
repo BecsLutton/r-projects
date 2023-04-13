@@ -7,7 +7,7 @@ library(tidyverse)
 
 
 #==========cleaning===============
-df<- read_excel("~/Documents/IDES/r/r-projects-main/NICEI-Tables-Q4-2022.xlsx",sheet = "Table 1")
+df<- read_excel("~/Documents/IDES/r/r-projects-main/nisra-stats/nicei/NICEI-Tables-Q4-2022.xlsx",sheet = "Table 1")
 
 df1 <- df %>% 
   row_to_names(row_number = 1) %>% 
