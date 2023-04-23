@@ -21,7 +21,7 @@ ggplot(df,                                            # data
        aes(Sector,                                    # X values
            `Quarterly contribution (pps)*`))  +       # Y values
   geom_col() +                                        # Plot type
-  coord_flip()                                        # Horizontal
+  coord_flip()                                        # Horizontal layout
 
 #--------------- Plot prep---------------------
 df1<-map_df(df, rev)      # reverse the order of the columns in df

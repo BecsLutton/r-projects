@@ -64,12 +64,12 @@ dfxt
 # Each column must be addressed first adding the green arrows, as this is the predominant colour
 # Then each column with red arrows must be edited to reflect this. 
 # This is a manual process because there isn't a consistent rule upon which to allocate the arrows.
-# Each value corresponds to it's previous value in a different year/quarter dependent on the category it's describing.
+# Each value corresponds to its previous value in a different year/quarter dependent on the category it's describing.
 # There are R emoticon/graphics packages available but it was easier to find .png files and save them to the local directory and upload
 
 dfxt2 <- flextable::compose(dfxt,   #data
                  j = 2,   #2nd column
-                 value = as_paragraph(     # allows concatentation of text chunks and inmages etc
+                 value = as_paragraph(     # allows concatenation of text chunks and images etc
                    as_image(src = "arrow_up.png", width = .15, height = .15),   # arrow first as per the publication being replicated
                    " ",    # space follows the arrow
                    as_chunk(NICEI, props = fp_text(color = "black")    # The text to be added, which is the value in the column NICEI. 
