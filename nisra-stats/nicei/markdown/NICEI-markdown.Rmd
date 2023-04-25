@@ -13,7 +13,7 @@ date: "2023-04-19"
 knitr::opts_chunk$set(echo = TRUE, error = FALSE, warning = FALSE, message = FALSE)
 ```
 
-This document will outline the steps taken, including the code, to achieve the plots in the "Growth Rates" panel of the NICEI Q4 2022 factsheet which can be found [here](https://www.nisra.gov.uk/system/files/statistics/NICEI%20Q4%202022%20factsheet.PDF). No other panels have been completed but can be ameneded to this document if so desired.
+This document will outline the steps taken, including the code, to achieve the plots in the "Growth Rates" panel of the NICEI Q4 2022 factsheet which can be found [here](https://www.nisra.gov.uk/system/files/statistics/NICEI%20Q4%202022%20factsheet.PDF). No other panels have been completed but can be amended to this document if so desired.
 
 # **Panel 1: Growth Rates**
 
