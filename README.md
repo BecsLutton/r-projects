@@ -9,3 +9,4 @@ It currently contains 3 folders:
  
  These folders each contain some R scripts and/or data files to be used with R for data analysis purposes. 
  
+For HTML files that are too large to view, please use this website: https://htmlpreview.github.io/?
