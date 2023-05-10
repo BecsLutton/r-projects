@@ -12,3 +12,5 @@ This folder contains all the data and the 3 scripts required to generate the plo
  
 ### **Markdown**
 The markdown folder contains the documents required to compile an HTML file (also available in pdf) that better guides the reader through the generation of the images in the publication. Unlike the scripts folder, this document combines all code into one document as opposed to 3 individual scripts. Commented code is a bare minimum and is an excellent resource but I tend to find I respond better to a markdown-style document that breaks up the visuals into chunks. 
+
+Something to note: the HTML file may be too large to view in the integrated html viewer; if this is the case, just use this website: https://htmlpreview.github.io/?
